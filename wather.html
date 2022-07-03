@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="wather.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>wather</title>
+</head>
+<body>
+    <div class="continer">
+        <input class="searchbox" type="search" placeholder="search">
+        <button class="search"><span class="fas fa-search"></span></button>
+        <p class="eror"></p>
+        <p class="lod" style="padding-left: 15px;margin-top: 20px;">loading...</p>
+        <div class="child">
+            <p class="wathercountry">Weather in <span class="city">Tehran</span></p>
+            <p class="temp"><span class="num">43</span>°C</p>
+            <span class="fas fa-cloud-sun statusicon"></span>
+            <span class="status">sunny</span>
+            <p class="him">humidity: 26%</p>
+            <p class="speed">wind speed:32 km/h</p>
+        </div>
+    </div>
+    <script src="wather.js"></script>
+</body>
+</html>
